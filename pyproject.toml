@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-base"
-version = "0.1.0"
+version = "0.0.1"
 description = "\"A streamlined Django project template designed for practical, real-world applications, with essential configurations and best practices integrated out of the box.\""
 authors = ["Azat <8280770+azataiot@users.noreply.github.com>"]
 license = "MIT"

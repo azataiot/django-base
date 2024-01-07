@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-base"
+version = "0.1.0"
+description = "\"A streamlined Django project template designed for practical, real-world applications, with essential configurations and best practices integrated out of the box.\""
+authors = ["Azat <8280770+azataiot@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,8 +1,8 @@
 # pull official python slim image for python 3.12
-FROM python:3.12-slim
+FROM python:3.12-slim as python
 
 # set working directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
